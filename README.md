@@ -45,7 +45,7 @@ int main() {
     struct TreeNode* root = createNode(5);
     root->left = createNode(2);
     root->right = createNode(7);
-    root->left->left = createNode(6);
+    root->right->left = createNode(6);
     root->right->right = createNode(8);
     
     int result = sumOfLeftLeaves(root);
